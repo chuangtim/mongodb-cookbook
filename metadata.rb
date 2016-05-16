@@ -14,7 +14,7 @@ recipe 'mongodb::replicaset', 'Installs and configures a mongodb replicaset'
 recipe 'mongodb::mms_monitoring_agent', 'Installs and configures a MongoDB MMS Monitoring Agent'
 recipe 'mongodb::mms_backup_agent', 'Installs and configures a MongoDB MMS Backup Agent'
 
-depends 'apt', '>= 2.9.2'
+depends 'apt', '2.9.2'
 depends 'yum', '>= 3.0'
 depends 'python'
 depends 'build-essential', '2.2.4'
